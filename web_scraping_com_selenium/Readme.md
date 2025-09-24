@@ -68,7 +68,7 @@ Siga os passos abaixo para configurar e rodar o projeto.
 **Clone o repositório:**
 
 ```bash
-git clone [https://github.com/alyssonrafael/Algoritimos_e_complexidade](https://github.com/alyssonrafael/Algoritimos_e_complexidade)
+git clone https://github.com/alyssonrafael/Algoritimos_e_complexidade
 cd web_scraping_com_selenium
 ```
 
