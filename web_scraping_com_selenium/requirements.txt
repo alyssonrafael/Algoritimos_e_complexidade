@@ -1,0 +1,6 @@
+# Dependências principais para automação de navegador
+selenium
+webdriver-manager
+
+# Para gerenciamento de variáveis de ambiente (.env)
+python-dotenv
