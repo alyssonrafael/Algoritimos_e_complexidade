@@ -1,0 +1,209 @@
+[
+  {
+    "id": 1,
+    "name": "Caruaru",
+    "graph_nodes": [
+      "Salgado",
+      "Maurício de Nassau",
+      "Indianópolis",
+      "Centro",
+      "Universitário"
+    ],
+    "graph_adj": {
+      "Centro": {
+        "Maurício de Nassau": 5,
+        "Universitário": 8
+      },
+      "Maurício de Nassau": {
+        "Centro": 5,
+        "Indianópolis": 4
+      },
+      "Universitário": {
+        "Centro": 8,
+        "Salgado": 7
+      },
+      "Indianópolis": {
+        "Maurício de Nassau": 4,
+        "Salgado": 10
+      },
+      "Salgado": {
+        "Universitário": 7,
+        "Indianópolis": 10
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Recife",
+    "graph_nodes": [
+      "Recife Antigo",
+      "Pina",
+      "Casa Forte",
+      "Espinheiro",
+      "Boa Viagem"
+    ],
+    "graph_adj": {
+      "Boa Viagem": {
+        "Recife Antigo": 6
+      },
+      "Recife Antigo": {
+        "Boa Viagem": 6,
+        "Espinheiro": 3
+      },
+      "Casa Forte": {
+        "Espinheiro": 9
+      },
+      "Espinheiro": {
+        "Recife Antigo": 3,
+        "Casa Forte": 9,
+        "Pina": 12
+      },
+      "Pina": {
+        "Espinheiro": 12
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Toritama",
+    "graph_nodes": [
+      "fazenda velha",
+      "Arial",
+      "Centro"
+    ],
+    "graph_adj": {
+      "Centro": {
+        "fazenda velha": 2,
+        "Arial": 10
+      },
+      "fazenda velha": {
+        "Centro": 2
+      },
+      "Arial": {
+        "Centro": 10
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "São Paulo",
+    "graph_nodes": [
+      "Vila Madalena",
+      "Tatuapé",
+      "República",
+      "Santo Amaro",
+      "Perdizes",
+      "Santana",
+      "Vila Guilherme",
+      "Tucuruvi",
+      "Pinheiros",
+      "Lapa",
+      "Butantã",
+      "Brás",
+      "Vila Mariana",
+      "Bela Vista",
+      "Liberdade",
+      "Moema",
+      "Itaim Bibi",
+      "Morumbi",
+      "Mooca",
+      "Sé"
+    ],
+    "graph_adj": {
+      "Sé": {
+        "República": 3,
+        "Liberdade": 2,
+        "Brás": 4
+      },
+      "República": {
+        "Sé": 3,
+        "Bela Vista": 2
+      },
+      "Liberdade": {
+        "Sé": 2,
+        "Bela Vista": 3,
+        "Mooca": 6
+      },
+      "Bela Vista": {
+        "República": 2,
+        "Liberdade": 3,
+        "Vila Mariana": 5,
+        "Pinheiros": 7
+      },
+      "Vila Mariana": {
+        "Bela Vista": 5,
+        "Moema": 4
+      },
+      "Moema": {
+        "Vila Mariana": 4,
+        "Itaim Bibi": 3
+      },
+      "Itaim Bibi": {
+        "Moema": 3,
+        "Santo Amaro": 6,
+        "Pinheiros": 5
+      },
+      "Santo Amaro": {
+        "Itaim Bibi": 6,
+        "Morumbi": 5
+      },
+      "Morumbi": {
+        "Santo Amaro": 5,
+        "Butantã": 4
+      },
+      "Pinheiros": {
+        "Bela Vista": 7,
+        "Itaim Bibi": 5,
+        "Vila Madalena": 3,
+        "Butantã": 4
+      },
+      "Vila Madalena": {
+        "Pinheiros": 3,
+        "Perdizes": 4
+      },
+      "Lapa": {
+        "Perdizes": 5,
+        "Butantã": 6
+      },
+      "Perdizes": {
+        "Vila Madalena": 4,
+        "Lapa": 5,
+        "Santana": 8
+      },
+      "Butantã": {
+        "Morumbi": 4,
+        "Pinheiros": 4,
+        "Lapa": 6
+      },
+      "Tatuapé": {
+        "Mooca": 4,
+        "Brás": 5
+      },
+      "Mooca": {
+        "Liberdade": 6,
+        "Brás": 3,
+        "Tatuapé": 4
+      },
+      "Brás": {
+        "Sé": 4,
+        "Mooca": 3,
+        "Tatuapé": 5,
+        "Santana": 7
+      },
+      "Santana": {
+        "Perdizes": 8,
+        "Brás": 7,
+        "Tucuruvi": 5,
+        "Vila Guilherme": 4
+      },
+      "Tucuruvi": {
+        "Santana": 5,
+        "Vila Guilherme": 3
+      },
+      "Vila Guilherme": {
+        "Santana": 4,
+        "Tucuruvi": 3
+      }
+    }
+  }
+]
