@@ -126,7 +126,7 @@ A interface mais completa e visual, ideal para explorar o sistema de forma intui
 python gui.py
 ```
 
-## 💻 Interface de Linha de Comando (CLI)
+## 💻 2. Interface de Linha de Comando (CLI)
 
 Uma versão baseada em menus de texto, útil para testes rápidos ou ambientes sem suporte gráfico.
 
